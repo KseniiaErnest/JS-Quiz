@@ -4,9 +4,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz</title>
 </head>
 <body>
-  
+<main>
+  <form >
+    <div class="question">
+      <label >Question 1. What country has the highest life expectancy?</label>
+      <div>
+      <span><input type="radio" name="question1" id="answer1">Hong Kong</span>
+      <span><input type="radio" name="question1">Japan</span>
+      <span><input type="radio" name="question1">USA</span>
+      <span><input type="radio" name="question1">Switzerland</span>
+    </div>
+    </div>
+
+    <div class="question">
+      <label >Question 2. What year was the United Nations established?</label>
+      <div>
+      <span><input type="radio" name="question2">1960</span>
+      <span><input type="radio" name="question2">1918</span>
+      <span><input type="radio" name="question2" id="answer2">1945 </span>
+      <span><input type="radio" name="question2">1957</span>
+    </div>
+    </div>
+
+    <div class="question">
+      <label >Question 3. What company was originally called "Cadabra"?</label>
+      <div>
+      <span><input type="radio" name="question3">Rakuten </span>
+      <span><input type="radio" name="question3" id="answer3">Amazon</span>
+      <span><input type="radio" name="question3">Google</span>
+      <span><input type="radio" name="question3">Apple</span>
+    </div>
+    </div>
+
+    <div class="question">
+      <label >Question 4. What country drinks the most coffee per capita?</label>
+      <div>
+      <span><input type="radio" name="question4">Italy</span>
+      <span><input type="radio" name="question4">France</span>
+      <span><input type="radio" name="question4">Canada</span>
+      <span><input type="radio" name="question4" id="answer4">Finland</span>
+    </div>
+    </div>
+
+    <div class="question">
+      <label >Question 5. Where did sushi originate?</label>
+      <div>
+      <span><input type="radio" name="question5" id="answer5">China</span>
+      <span><input type="radio" name="question5">Japan</span>
+      <span><input type="radio" name="question5">Thailand</span>
+      <span><input type="radio" name="question5">Mongolia</span>
+    </div>
+    </div>
+
+    <button id="btn" type="submit">Submit answers</button>
+    <p id="showScore"></p>
+
+  </form>
+
+</main>
+
+  <script src="script.js"></script>
 </body>
 </html>
